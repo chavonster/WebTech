@@ -1,0 +1,14 @@
+1. This exercise was relatively easy. The hard part for me was styling
+   (_cssing_), so I used a simple front-end framework - twitter's bootstrap.
+   The framework consists of CSS/JS only, and I used only a tiny fraction
+   of what it offers - so I think it's fair.
+2. Implementing the server architecture (using my Ex3) was really easy.
+   The frontend part was pretty easy as well - sending requests with ajax
+   and handling buttons behaviour is not much of a challenge compared to
+   parsing an HTTP request or working with sockets.
+3. The course got me to face some of my worst fears: Server-client programs,
+   async code and event-driven programming.
+   I'm glad for the oppertunity to do that, though I probably could have
+   done it outside the scope of a course in the university. I guess the mere
+   presence of deadlines for exercises does force you to sit down and learn.
+   

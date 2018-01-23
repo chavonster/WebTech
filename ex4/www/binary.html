@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Ex4</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap_dir/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="bootstrap_dir/cover.css" rel="stylesheet">
+
+    <!-- My custom style (visibility control) -->
+    <link rel="stylesheet" type="text/css" href="mine_dir/style.css">
+
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <!-- navigation bar
+               ============== -->
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Ex4</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active home" onclick="switchPage('results', 'home');">
+                    <a href="#">Home</a>
+                  </li>
+                  <li class="results" title="You have to play to see the results!">
+                    <a>Results</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <!-- home page
+               ========= -->
+          <div id="home" class="inner cover">
+            <h1 class="cover-heading">Binary Game</h1>
+
+            <h3 class="lead">
+              The first rule of Binary Game is: <q>You do not talk about Binary Game</q>.
+            </h3>
+            <p class="lead">
+              The other rules are simpler:
+              We count the votes. If you're the underdog, you win. If you choose the leading number, you lose.
+            </p>
+
+            <p class="lead">
+              Choose '0' or '1' to play. 'New Game' starts... well... a new game.
+            </p>
+            <p class="lead">
+              <div class="btn-group btn-group-lg" role="group">
+
+                <button class="btn btn-default" onclick="handleClick(FIRST);">0</button>
+
+                <button class="btn btn-default" onclick="handleClick(SECOND);">1</button>
+
+              </div>
+            </p>
+          </div>
+
+          <!-- results page
+               ============ -->
+          <div id="results" class="inner cover hidden">
+            <h1 class="cover-heading">Results</h1>
+            <p id="result" class="lead"></p>
+          </div>
+
+          <p class="lead">
+            <button class="btn btn-default" onclick="handleClick(RESET);">New Game</button>
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap_dir/jquery.js"></script>
+    <!-- <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script> -->
+    <script src="bootstrap_dir/bootstrap.js"></script>
+
+    <!-- My function definitions and ajax -->
+    <script type="text/javascript" src="mine_dir/index.js"></script>
+
+
+</body></html>

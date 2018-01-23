@@ -1,0 +1,12 @@
+Due to the fact an extension was given to ex3 submission, some bugs
+have been fixed - most of them are RegExp related (more precisely, bugs
+related to my incompatibility of reading full documentation). Some were
+discovered during ex4 writing, and some on ex3 debugging - and I can't
+really tell them apart.
+To name some:
+  - Plain wrong regex that worked in most cases, but failed on _almost_
+    valid HTTP.
+  - An attempt to end() the socket after it has been closed was removed.
+    It didn't crush the server (it was in a try-catch clause), but it
+    annoyed me while debugging.
+  - Code-design prettyfying (naming functions, writing docs, etc.)

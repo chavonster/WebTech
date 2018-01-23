@@ -1,0 +1,9 @@
+{
+  "name": "binaryGame",
+  "main": "./main.js",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "hujiwebserver": "file:my_modules/hujiwebserver"
+  }
+}

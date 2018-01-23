@@ -1,0 +1,9 @@
+{
+  "name": "hujiwebserver",
+  "main": "./hujiwebserver.js",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "route-parser": "0.0.5"
+  }
+}
